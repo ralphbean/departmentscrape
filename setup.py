@@ -5,7 +5,7 @@ version = '0.2a1'
 
 setup(name='departmentscrape',
       version=version,
-      description="little tool I use at work until we can get this done the right way"
+      description="little tool I use at work until we can get this done the right way",
       # Get strings from http://pypi.python.org/pypi?%3Aaction=list_classifiers
       classifiers=[
           'Development Status :: 3 - Alpha',
