@@ -3,19 +3,18 @@ import sys, os
 
 version = '0.2a1'
 
-setup(name='tracticketpost',
+setup(name='departmentscrape',
       version=version,
-      description="Submit new tickets to trac (via HTTP post)",
+      description="little tool I use at work until we can get this done the right way"
       # Get strings from http://pypi.python.org/pypi?%3Aaction=list_classifiers
       classifiers=[
           'Development Status :: 3 - Alpha',
-          'Framework :: Trac',
           'Topic :: Software Development :: Libraries :: Python Modules',
       ],
       keywords='',
       author='Ralph Bean',
       author_email='ralph.bean@gmail.com',
-      url='http://github.com/ralphbean/tracticketpost',
+      url='http://github.com/ralphbean/departmentscrape',
       license='GPL',
       packages=find_packages(exclude=['ez_setup', 'examples', 'tests']),
       include_package_data=True,
@@ -23,5 +22,6 @@ setup(name='tracticketpost',
       install_requires=[
           'twill',
           'ClientForm',
+          'BeautifulSoup',
       ],
       )
