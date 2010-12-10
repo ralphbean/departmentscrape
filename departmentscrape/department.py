@@ -76,9 +76,9 @@ class Department(object):
         form = self.br.get_form('thisForm')
         for k, v in self.fields.iteritems():
             control = form.find_control(k)
-            if isinstance(control, ClientForm.TextControl):
+            if control.is_of_kind('text'):
                 form[k] = str(v)
-            elif isinstance(control, ClientForm.SelectControl):
+            elif control.is_of_kind('singlelist'):
                 def get_text(item):
                     if len(item.get_labels()) == 0:
                         return ''
