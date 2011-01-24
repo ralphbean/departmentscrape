@@ -1,6 +1,5 @@
 from twill.browser import TwillBrowser
 from BeautifulSoup import BeautifulSoup
-import ClientForm
 
 import sys
 

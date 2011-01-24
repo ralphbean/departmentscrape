@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import sys, os
 
-version = '0.2a2'
+version = '0.2a3'
 
 setup(name='departmentscrape',
       version=version,
@@ -21,7 +21,6 @@ setup(name='departmentscrape',
       zip_safe=False,
       install_requires=[
           'twill',
-          'ClientForm',
           'BeautifulSoup',
       ],
       )
